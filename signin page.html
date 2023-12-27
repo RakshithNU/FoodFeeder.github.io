@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN PAGE</title>
+    <link rel="icon" href="ff icon.jpg">
+    <style>
+        ul{
+            list-style-type: none;
+            margin-left: 1200px;
+            font-size:x-large;
+            font-family:'Times New Roman', Times, serif;
+            box-shadow: 8px 8px 10px grey;
+        }
+        li a{
+            text-decoration: none;
+            border: 2px ridge black;
+            float: left;
+            padding-left: 10px;
+           background-color: aqua;
+           text-shadow: 2px 2px 4px gray;
+        }
+        a:hover{
+            background-color: rgb(149, 244, 91);
+        }
+    </style>
+</head>
+<body>
+    <form action="sign up page.html">
+        <div style="border: 2px ridge black; height: 1000px; background-image: linear-gradient(#cefad0 , white,#83f28f, #5ced73);"><br><br>
+            <div style="border: 2px ridge black; box-shadow: 4px 4px 10px black;">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sign up page.html">SIGN UP</a></li>
+        </ul><br><br><br><br>
+    </div><br><br><br>
+
+        
+<fieldset style="margin-left: 10px;">
+<legend style="font-family: cursive; font-style: italic; font-size: larger;">SIGN IN</legend>
+<label for="uf" style="font-size: x-large;">First Name</label>
+<input type="text" id="uf" required pattern="[A-Za-z]{3,20}" style="font-size: larger;"><br><br>
+<label for="ul" style="font-size: x-large;">Last Name</label>
+<input type="text" id="ul" required  style="font-size: larger;"><br><br>
+<label for="um" style="font-size: x-large;">Mail ID &nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="text" id="um" required pattern="[a-z0-9_.]+@[a-z]+.[a-z]{2,}]" style="font-size: larger;"><br><br>
+<label for="up" style="font-size: x-large;">Phone NO.</label>
+<input type="text" id="up" required pattern="[6-9]{1}[0-9]{9}" style="font-size: larger;">
+</fieldset><br><br>
+<button style="font-size:large; margin-left: 10px; font-family: cursive;" >Submit</button>
+    </form>
+</body>
+</div>
+</html>
